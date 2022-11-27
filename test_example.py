@@ -1,11 +1,11 @@
 
-def test_example():
-    assert 3 > 2
-    assert 5 > 1
+def test_app():
+    assert 10 != 15
 
-def test_app_10():
-    assert 15 != 12
+# новый тест
+def new_test_app_01():
+    assert 2 != 5
 
-def test_app_11():
-    assert 0 == 0
-
+# еще новый тест
+def new_test_app_02():
+    assert 0 < 5
